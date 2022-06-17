@@ -1,0 +1,78 @@
+
+body{
+    direction: rtl;
+    font-family: vazir;
+    margin: 0;
+    padding: 0;
+
+}
+.plac-form{
+    margin: 0;
+    padding: 0;
+    background-image: url(img/register.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 620px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.form{
+    display: flex;
+    background-color: rgba(0, 0, 0, 83%);
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    
+}
+form{
+    border: 2px solid;
+    display: flex;
+    width: 50%;
+    height: 60%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.register-form{
+    border: none;
+    color: white;
+    font-size: 20px;
+    width: 40%;
+    border-radius: 20px;
+    background-color: #00000043;
+    backdrop-filter: blur(12px);
+    box-shadow: rgb(255 255 255 / 21%) 0px 0px 50px -18px;
+}
+li{
+    list-style-type: none;
+}
+form div{
+    padding: 10px ;
+}
+
+
+.inp{
+    height: 25px;
+    width: 60%;
+    border-radius: 5px; 
+    border: 2px solid rgba(0, 0, 0, 0);
+}
+.inp:hover{
+    border-radius: 5px;
+    border: 2px solid black;
+    transition: 0.3;
+   
+}
+.mm{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+register-form success{
+    display:;
+}
