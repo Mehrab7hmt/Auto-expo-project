@@ -1,0 +1,892 @@
+@font-face {
+    font-family: vazir;
+    src: url(font/Vazir.woff);
+  }
+body{
+    background-color: #eb53250c;
+    direction: rtl;
+    font-family: vazir;
+    margin: 0px;
+}
+:root{
+    scroll-behavior: smooth;
+}
+.login{
+    cursor: pointer;
+    font-family: vazir;
+    font-size: 16px;
+    border-radius: 40px;
+    border: solid 1px white;
+    color: white;
+    background-color: rgba(240, 255, 255, 0);
+    padding: 10px;
+    margin: 4px 25px 0px 0px;
+
+}
+.login:hover{
+    transition: all 0.3s;
+    background-color: #eb532577;
+    color: white;
+    border: 1px solid #eb5425;
+    box-shadow: 0 0 20px #eb5425;
+}
+header{
+    text-align: -webkit-center;
+}
+.plac-header{
+    display: flex;
+    max-width: 1400px;
+    align-items: center;
+    margin-bottom: -80px;
+    margin-top: 10px;
+
+}
+
+
+#header-left{
+   
+    display: flex;
+    width: 30%;
+    justify-content: space-between;
+}
+#header-right{
+    width: 70%;
+    display: flex;
+}
+
+.under-heder{
+    margin-top:0px;
+    background-image: url(img/car.jpg);
+    height: 600px;
+    background-size: cover;
+    background-repeat:no-repeat ;
+    border-radius: 0% 0% 50% 10%;
+    max-width: 1600px;
+    
+}
+
+
+
+.inder-under-heder{
+    max-width: 1600px;
+    margin-bottom: -60px;
+    padding: 16px 0px 0px 0px;
+
+    /* box-shadow: 0px 50px 120px rgb(255 255 255); */
+}
+.inder-under-heder h1{
+    padding-top: 100px;
+    margin: 0px;
+    font-size: 60px;
+    color: #eb5425;
+    text-shadow:0px 0px 20px white;
+}
+
+.inder-under-heder h2{
+font-weight: 100;
+margin-top: 0px;
+}
+
+
+
+
+
+
+
+.meno{
+    margin: 0px;
+    list-style-type: none;
+}
+.meno li{
+
+    float: right;
+    padding: 20px 12px;
+    font-size: 18px;
+    padding-bottom: 10px;
+    
+}
+.meno li a{
+    text-decoration: none;;
+    padding: 6px;
+}
+.meno li a:link, a:visited {
+    color: white;
+}
+.meno li a:hover{
+    color: #eb5425;
+    border-bottom:2px solid  ;
+    transition: 0.3s;
+}
+
+
+.logo{
+    width: 170px;
+    margin: 6px 0px 0px -10px;
+}
+.svg{
+    width: 25px;
+ 
+}
+.svg1{
+    width: 40px;
+}
+.svg1:hover{
+    width: 45PX;
+    transition: 00.3s;
+}
+
+
+#blur{
+    background-color: #ffffff10;
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+}
+
+
+
+
+
+
+
+
+/* سرچ باکس  */
+
+.header form {
+    margin-left: -500px;
+    position: relative;
+    top: 55%;
+    left: 50%;
+    transform: translate(50%,-50%);
+    transition: all 1s;
+    width: 48px;
+    height: 48px;
+    background: #ffffff00;
+    box-sizing: border-box;
+    border-radius: 25px;
+    border: 2px solid white;
+    padding: 5px;
+    
+}
+
+
+.header input{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    line-height: 30px;
+    outline: 0;
+    border: 0;
+    display: none;
+    font-size: 1em;
+    border-radius: 20px;
+    padding: 0 45px 0px 5px;
+    font-family: vazir;
+    margin: 0px;
+}
+.fa{
+    box-sizing: border-box;
+    padding: 10px 0px 0px 0px;
+    width: 42.5px;
+    height: 42.5px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-radius: 50%;
+    color: #ffffff;
+    text-align: center;
+    font-size: 1.2em;
+    transition: all 0.5s;
+
+}
+
+.header form:hover{
+    width: 200px;
+    cursor: pointer;
+    box-shadow: 0 0 20px #eb5425;
+    border: 2px solid #eb5425;
+}
+.header form:hover input{
+    display: block;
+    background-color: #eb532577;
+    color: white;
+
+
+}
+form:hover .fa{
+    background-color: rgba(0, 0, 0, 0.416);
+    color: white;
+    
+}
+
+/* سرچ باکس */
+
+
+
+
+
+.fasele-under-header{
+    height: 200px;
+    
+}
+
+.typewrite > .wrap { 
+  color: #eb5425;
+  font-family: vazir;
+  margin-right: 30px;
+  font-size: 20px;
+}
+.text-under-header{
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 10%;
+    width: 100%;
+}
+
+
+.text-under-header-left{
+    width: 68%;
+    height: 300px;
+}
+.text-under-header-right{
+    width: 32%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.text-under-header-right h2{
+font-size: 65px;
+margin-bottom: 0px;
+color: white;
+}
+
+
+
+
+
+/* محتوا بدنه */
+
+.contain{
+    text-align: -webkit-center;
+
+
+}
+.contain h3{
+    font-size: 40px;
+    margin-bottom: 0px;
+}
+.contain p{
+    margin: 0px 0px 6px 0px;
+    font-weight: 100;
+
+}
+.img-but{
+    margin-top: -6px;
+}
+.img-but-r{
+    transform: rotate(180deg);
+    margin-bottom: -10px;
+}
+
+
+/* اسلایدر */
+
+.plac-contain-slider{
+    background-color: white;
+    box-shadow: 0px 100px 200px #eb53250c inset;
+}
+
+
+.contain-slider{
+    margin-right: 40px;
+    max-width: 1400px;
+    display: flex;
+    align-items: center;
+    padding: 80px 0px 150px 0px;
+
+}
+.left-slider{
+    width: 40%;
+}
+
+#slider{
+    width: 60%;
+    position: relative;
+    margin: 20px auto;
+  
+    border-radius: 20px;
+    
+}
+
+#slider img{
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    box-shadow:  45px 45px 100px #c7c7c775,    -45px -45px 100px #f9f9f9;
+}
+
+.slide{
+    display: none;
+}
+
+.active{
+    display: block;
+ 
+    animation: bounceIn 0.5s;
+}
+
+@keyframes bounceIn {
+    0% {
+      opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+  }
+
+
+
+.slider-button{
+    background: none;
+    border: none;
+    color: white;
+    border-radius:50% ;
+    padding: 15px;
+    cursor: pointer;
+}
+
+.slider-button:hover{
+    transition: 0.5s;
+    color: #eb5425;
+
+}
+
+
+
+.prev , .next{
+    font-size: 35px;
+    position: absolute;
+    top: 40%;
+    font-weight: 700;
+}
+
+.prev{
+    right: -10px;
+}
+
+.next{
+    left: -10px;
+}
+
+
+/* اسلایدر  */
+
+.img-left-slider{
+    width: 78%;
+    border-radius: 15px;
+    box-shadow:  -45px 45px 100px #c7c7c775,    45px -45px 100px #f9f9f9;
+}
+
+
+
+/* ماشین ها برگزیده */
+
+.top-title{
+    padding-top: 100px;
+    max-width: 1300px;
+    margin-bottom: 100px;
+    padding-bottom: 100px;
+}
+
+.top-place{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    width: 1300px;
+}
+.top-title-hr{
+    width: 70%;
+    height: 40px;
+    border-top: solid 6px #eb5425;
+    border-radius: 14%;
+}
+
+.top-contain{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(36, 42, 53, 0.5);
+    cursor: pointer;
+    display: flex;
+    align-items: flex-end;
+    border-radius: 20px;
+}
+
+
+
+
+
+
+.top-place-right{
+    width: 33.33%;
+}
+.top-place2{
+    width: 100%;
+    height: 250px;
+}
+
+
+.plac-top-contain{
+    margin: 15px 20px;
+}
+.plac-top-contain h3{
+    font-size: 20px;
+    color: #eb5425;
+    text-shadow: 0px 0px 5px black;
+}
+.plac-top-contain{
+font-size:15px;
+color: white;
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+}
+
+
+.right-2part1{
+    background-image: url(img/r1.jpg);
+    margin:  0px -40px 20px 0px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px -10px black;
+}
+.right-2part1:hover{
+    box-shadow: 0px 0px 20px -5px black;
+}
+
+.right-2part2{
+    background-image: url(img/r2.jpg);
+    margin:  0px -40px 0px 0px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px -10px black;
+
+}
+.right-2part2:hover{
+    box-shadow: 0px 0px 20px -5px black;
+}
+
+
+
+.left-2part1{
+    background-image: url(img/l1.jpg);
+    margin: 0px 20px 0px 0px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px -10px black;
+}
+.left-2part1:hover{
+    box-shadow: 0px 0px 20px -5px black;
+}
+
+.left-2part2{
+    background-image: url(img/l2.jpg);
+    margin: 20px 20px 0px 0px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px -10px black;
+}
+.left-2part2:hover{
+    box-shadow: 0px 0px 20px -5px black;
+}
+
+
+.top-place-center{
+    width: 33.33%;
+    border-radius: 20px;
+}
+.top-place-center:hover{
+    box-shadow: 0px 0px 20px -5px black;
+}
+
+
+
+.top-place-right-1part{
+background-image: url(img/c.jpg);
+width: 100%;
+height: 100%;
+margin: 0px 0px 0px 0px;
+border-radius: 20px;
+}
+
+
+
+.top-place-left{
+    width: 33.33%;
+}
+
+
+
+
+
+
+
+.contain-top2{
+    height: 400px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.contain-top2-plac{
+    display: flex;
+    width: 90%;
+    align-items: center;
+    justify-content: center;
+    max-width: 1400px;
+}
+
+.contain-top2-import-place{
+    height: 280px;
+    margin: 20px 20px;
+    border-radius: 10px
+}
+
+
+
+.contain-top2-import{
+    width: 25%;
+    display:flex ;
+    flex-direction: column;
+    color: white;
+    font-size: 18px;
+}
+.contain-top2-import:hover{
+    color: #eb5425;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+
+
+.new-car{
+    max-width: 1370px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+.new-car-import{
+    width: 25%;
+}
+
+
+
+
+
+
+/* محصولات جدید ماشین ها جدید */
+
+.card{
+    position: relative;
+    box-shadow: 0px 0px 20px -10px black;
+    height: 290px;
+    color: #eb5425;
+    cursor: pointer;
+    border-radius: 20px;
+    overflow: hidden;
+    margin: 20px 10px;
+
+}
+
+.card:hover{
+    box-shadow: 0px 0px 20px -6px black;
+    transition: 0.3s;
+}
+
+.card-content{
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    padding-bottom: 10px;
+    background-color: white;
+    border-top-left-radius:30px;
+    transform: translateY(70px);
+    transition: transform .25s;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+.card-content p,h4,span{
+    padding-right: 10px;
+}
+.card-content span{
+margin-top:-14px;
+z-index: 1;
+}
+
+
+.card-content::before{
+    content: '';
+    position: absolute;
+    top: -47px;
+    right: -45px;
+    width: 100px;
+    height: 100px;
+    transform: rotate(-175deg);
+    border-radius: 50%;
+    box-shadow: inset 48px 48px #fff;
+    z-index: 0;
+}
+
+.card-title{
+    color: #6a515e;
+    line-height: 15px;
+    z-index: 1;
+
+
+}
+
+.card-subtitle{
+    display: block;
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+
+.card-description{
+    font-size: 14px;
+    opacity: 0;
+    transition: opacity .5s;
+    width: 100%;
+}
+
+
+.card-info{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card:hover .card-content{
+    transform: translateY(0);
+
+}
+
+.card:hover .card-description {
+    opacity: 1;
+    transition-delay:.25s ;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+/* فوتر سایت */
+
+footer{
+    text-align: -webkit-center;
+
+}
+
+.footer-holder{
+    max-width: 1600px;
+    background-image: url(img/footer.jpg);
+    background-size: cover;
+    border-radius: 40% 15% 0% 0%;
+
+}
+.footer{
+    padding: 0px;
+    background-color: rgba(0, 0, 0, 0.8);
+    backdrop-filter: blur(10px);
+    height: 460px;
+    border-radius: 40% 15% 0% 0%;
+    /* box-shadow: 0px -60px 100px rgb(255 255 255); */
+}
+
+
+.footer-contin{
+display: flex;
+justify-content: center;
+width: 100%;
+padding-top: 150px;
+color: white;
+font-size: 20px;
+}
+
+.footer-contin-right{
+    width: 60%;
+}
+
+.footer-contin-left{
+    width: 40%;
+    z-index: 0;
+}
+
+
+
+
+
+/* دکمه های سوشیال مدیا */
+.wrapper-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 2px solid #eb5425;
+    width: 70%;
+    padding-top: 30px;
+    border-radius: 10%;
+  }
+  .wrapper-btn button {
+    display: block;
+    width: 60px;
+    height: 60px;
+    position: relative;
+    border-radius: 50%;
+    border: none;
+    margin: 0px 1.5rem;;
+    cursor: pointer;
+    transition: 0.2s;
+  }
+  .wrapper-btn button:hover {
+    box-shadow: 0 0 30px #eb5425;
+    transition: 00.3s;
+
+  }
+
+  .wrapper-btn button:before {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    border-radius: 50%;
+    z-index: -1;
+    transform: scale(1.5);
+    animation: pulse 1.5s infinite;
+  }
+  
+  @keyframes pulse {
+    0% {
+      opacity: 0;
+      transform: scale(0);
+    }
+    20% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+  
+  .bg1,
+  .bg1:before {
+    background-color: white;
+  }
+  .bg2,
+  .bg2:before {
+    background-color: white;
+  }
+  .bg3,
+  .bg3:before {
+    background-color: white;
+  }
+  .bg4,
+  .bg4:before {
+    background-color: white;
+  }
+  .bg5,
+  .bg5:before {
+    background-color:white;
+  }
+
+
+  /* دکمه سوشال مدیا */
+
+  .footer-bottom{
+    margin: 7% 20px 0px 20px;
+    padding: 10px;
+    border-radius: 30px;;
+    color: white;
+    background-color: #ffffff10;
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+  }
+  .footer-bottom p:hover{
+    color: #eb5425;
+    transition: 0.3s;
+  }
+.shobe-bottom{
+display: flex;
+justify-content: space-evenly;
+
+}
+.shobe-bottom-contin{
+    border-top:2px solid #eb5425 ;
+    border-radius: 10%;
+    padding: 5px 30px;
+}
+
+
+
+.tik{
+    margin-top: 150px;
+    height: 100px;
+    background: url(img/tik.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.tik-plac{
+    
+    background-color: rgba(36, 42, 53, 0.5);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ff8e6c;
+    font-size: 20px;
+  
+}
+
+
+.plac2{
+    background: white;
+    box-shadow: 0px 100px 200px #eb53250c inset;
+
+}
+.news{
+    width: 1400px;
+    display: flex;
+}
+.news-info{
+    width: 33.33%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-right: 100px;
+}
+
+.news p:hover{
+color: #eb5425;
+transition: 0.3s;
+cursor: pointer;
+}
