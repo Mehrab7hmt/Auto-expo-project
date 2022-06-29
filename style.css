@@ -742,8 +742,7 @@ cursor: pointer;
 
 
 
-/* footer - mehdi gholipourghasab */
-
+/* footer */
 footer{
     text-align: -webkit-center;
 
@@ -759,14 +758,14 @@ footer{
 .footer{
     padding: 0px;
     background-color: rgba(0, 0, 0, 0.8);
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(2px);
     height: 460px;
     border-radius: 40% 15% 0% 0%;
-    /* box-shadow: 0px -60px 100px rgb(255 255 255); */
+    box-shadow: 0px -60px 100px rgb(255 255 255);
 }
 
 
-.footer-contin{
+.footerin{
 display: flex;
 justify-content: center;
 width: 100%;
@@ -775,11 +774,11 @@ color: white;
 font-size: 20px;
 }
 
-.footer-contin-right{
+.footer-right{
     width: 60%;
 }
 
-.footer-contin-left{
+.footer-left{
     width: 40%;
     z-index: 0;
 }
@@ -857,7 +856,7 @@ font-size: 20px;
     background-color:white;
   }
 
-  .footer-bottom{
+  .footer-cr{
     margin: 7% 20px 0px 20px;
     padding: 10px;
     border-radius: 30px;;
@@ -866,18 +865,19 @@ font-size: 20px;
     backdrop-filter: blur(12px);
     -webkit-backdrop-filter: blur(12px);
   }
-  .footer-bottom p:hover{
+  .footer-cr p:hover{
     color: #eb5425;
     transition: 0.3s;
   }
-.shobe-bottom{
+.shobe-ha{
 display: flex;
 justify-content: space-evenly;
 
 }
-.shobe-bottom-contin{
+.shobe-detail{
     border-top:2px solid #eb5425 ;
     border-radius: 10%;
     padding: 5px 30px;
 }
+
 
